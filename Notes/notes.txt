@@ -1,0 +1,11 @@
+Package.json is configuration for npm.
+
+The most important package in our new project is BUndler like:- WEbpack,parcel,vite.
+
+carate--^--->does the minor update.
+tilde-----| ~ |-----does the major update.
+
+transitive dependencies-----dependency of dependencies. 
+
+npm install will install all the dependencies required mentioned in the package.json file and package-lock.json maintans the integrity 
+and excat versoin installed and dependencies required for that dependency.
