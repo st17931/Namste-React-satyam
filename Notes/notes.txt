@@ -9,3 +9,12 @@ transitive dependencies-----dependency of dependencies.
 
 npm install will install all the dependencies required mentioned in the package.json file and package-lock.json maintans the integrity 
 and excat versoin installed and dependencies required for that dependency.
+
+npm installs the package and npx executes it. e.g-->npm install parcel and npx psrcel index.html
+
+npx parcel index.html---->builds the development build
+npx parcel build index.html----->builds the production build
+
+
+jsx------is converted into React.createElement------->> by babel
+that is--->const heading = <h1 style="color:blue">hi hello</h1> == const headingv= react.createElement("h1",{id:"color:blue"},"hi hello");
